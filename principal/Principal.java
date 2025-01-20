@@ -6,12 +6,14 @@ public class Principal {
         short idadeDoPrimeiroNinja = 15;
         String missaoDoPrimeiroNinja = "Salvar Rin da vila da Pedra";
         char nivelDeDificuldadeDoPrimeiroNinja = 'S';
-        String statusDeConclusaoDoPrimeiroNinja = "";
+        String statusDeConclusaoDoPrimeiroNinja = "Não Concluída";
 
-        if (idadeDoPrimeiroNinja >= 15) {
-            statusDeConclusaoDoPrimeiroNinja = "Concluída";
+        if (idadeDoPrimeiroNinja < 15) {
+            if (nivelDeDificuldadeDoPrimeiroNinja == 'C' || nivelDeDificuldadeDoPrimeiroNinja == 'D') {
+                statusDeConclusaoDoPrimeiroNinja = "Concluída";
+            }
         } else {
-            statusDeConclusaoDoPrimeiroNinja = "Não Concluída";
+            statusDeConclusaoDoPrimeiroNinja = "Concluída";
         }
 
         System.out.println("Nome: " + nomeDoPrimeiroNinja);
@@ -25,12 +27,14 @@ public class Principal {
         short idadeDoSegundoNinja = 13;
         String missaoDoSegundoNinja = "Escoltar Tazuna ao país das Ondas";
         char nivelDeDificuldadeDoSegundoNinja = 'A';
-        String statusDeConclusaoDoSegundoNinja = "";
+        String statusDeConclusaoDoSegundoNinja = "Não Concluída";
 
-        if (idadeDoSegundoNinja >= 15) {
-            statusDeConclusaoDoSegundoNinja = "Não Concluída";
+        if (idadeDoSegundoNinja < 15) {
+            if (nivelDeDificuldadeDoSegundoNinja == 'C' || nivelDeDificuldadeDoSegundoNinja == 'D') {
+                statusDeConclusaoDoSegundoNinja = "Concluída";
+            }
         } else {
-            statusDeConclusaoDoSegundoNinja = "Não Concluída";
+            statusDeConclusaoDoSegundoNinja = "Concluída";
         }
 
         System.out.println("Nome: " + nomeDoSegundoNinja);
@@ -44,12 +48,14 @@ public class Principal {
         short idadeDoTerceiroNinja = 91;
         String missaoDoTerceiroNinja = "Matar o Senju Hashirama";
         char nivelDeDificuldadeDoTerceiroNinja = 'S';
-        String statusDeConclusaoDoTerceiroNinja = "";
+        String statusDeConclusaoDoTerceiroNinja = "Não Concluída";
 
-        if (idadeDoTerceiroNinja >= 15) {
-            statusDeConclusaoDoTerceiroNinja = "Concluída";
+        if (idadeDoTerceiroNinja < 15) {
+            if (nivelDeDificuldadeDoTerceiroNinja == 'C' || nivelDeDificuldadeDoTerceiroNinja == 'D') {
+                statusDeConclusaoDoTerceiroNinja = "Concluída";
+            }
         } else {
-            statusDeConclusaoDoTerceiroNinja = "Não Concluída";
+            statusDeConclusaoDoTerceiroNinja = "Concluída";
         }
 
         System.out.println("Nome: " + nomeDoTerceiroNinja);
