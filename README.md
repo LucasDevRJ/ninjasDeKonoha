@@ -19,3 +19,8 @@ imprima o resultado.
   * Tipos de dados não primitivos;
   * Exibição de dados no console;
   * Condições.
+
+## Vídeo do meu projeto
+Criei um vídeo explicando sobre meu projeto e mostrando o código.
+
+Link: https://www.linkedin.com/posts/lucas-pereira-de-lima-programador_java-programaaexaeto-naruto-activity-7286919593443430400-qPFW?utm_source=share&utm_medium=member_desktop
